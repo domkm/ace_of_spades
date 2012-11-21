@@ -6,7 +6,7 @@ A simple and flexible playing cards library.
 
 Add this line to your application's Gemfile:
 
-    gem 'ace_of_spades'
+    gem 'ace_of_spades', '~> 0.0.1.pre'
 
 And then execute:
 
@@ -14,7 +14,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install ace_of_spades
+    $ gem install ace_of_spades --pre
 
 ## Usage
 
