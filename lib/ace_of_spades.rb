@@ -3,6 +3,6 @@ module AceOfSpades
   SUITS  = [:Clubs, :Diamonds, :Hearts, :Spades]
 end
 
-%w[deck card value suit].each do |file|
+%w[cardtainer deck card value suit].each do |file|
   require "ace_of_spades/#{file}"
 end

@@ -17,4 +17,5 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency "rspec", "~> 2.11.0"
   gem.add_development_dependency "guard", "~> 1.5.3"
   gem.add_development_dependency "guard-rspec", "~> 2.1.1"
+  gem.add_development_dependency "growl"
 end
