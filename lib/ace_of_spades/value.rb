@@ -23,7 +23,7 @@ class AceOfSpades::Value
 
   def to_i
     aces_high? ? VALUES.rindex(@symbol) + 1 : VALUES.index(@symbol) + 1
-  end#
+  end
   alias_method :to_int, :to_i
 
   def aces_high?
